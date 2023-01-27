@@ -13,7 +13,7 @@ package main
 import "fmt"
 
 func main() {
-    n := 4
+    n := 18
     i := 1
     for i <= n {
         if i <= 5 {
