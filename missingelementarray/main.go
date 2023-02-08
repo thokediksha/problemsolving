@@ -8,7 +8,7 @@ func missingnumber(arr []int, n int) int {
 	sum := 0
 	nsum := 0
 	for i := 0; i < n; i++ {
-		sum += arr[i] // sum variable will contain the sum fo all integers of an array.
+		sum += arr[i] // sum variable will contain the sum of all integers of an array.
 	}
 	nsum = ((n + 1) * (n + 2)) / 2 // we use formula for obtaining sum of first n numbers.
 	return (nsum - sum)            // return the missing number.

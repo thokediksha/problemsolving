@@ -12,8 +12,9 @@ func reverse(str string) (result string) {
 }
 
 func main(){
-	str := "DIKSHA"
+	str := "hello"
 	strREV := reverse(str)
 	fmt.Println(str)
 	fmt.Println(strREV)
+	
 }
