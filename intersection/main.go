@@ -5,7 +5,7 @@ package main
 
 import (
 	"fmt"
-	"math"
+	// "math"
 )
 
 // func intersection(a, b []int) (c []int){
@@ -21,11 +21,11 @@ import (
 // 	return
 // }
 
-// func main(){
-// 	var a = []int{1, 2, 3, 4, 5}
-// 	var b = []int{3, 4, 6}
-// 	fmt.Println(intersection(a,b))
-// }
+func main(){
+	var a = []int{1, 2, 3, 4, 5}
+	var b = []int{3, 4, 6}
+	fmt.Println(inter(a,b))
+}
 
 
 
@@ -37,8 +37,9 @@ func inter(a,b []int) (c []int) {
 
 	for _, item := range b {
 		if _, ok := m[item]; ok {
-         c := append(c, item)
+         c = append(c, item)
 		}
 	}
+	return
 }
 

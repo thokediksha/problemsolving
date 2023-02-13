@@ -15,7 +15,7 @@ func isAnagram(s1,s2 string) bool {
 		fre[r]--
 	}
 	for _, count := range fre{
-		if count  != 0{
+		if count  != 0 {
 			return false
 		}
 	}
@@ -33,6 +33,7 @@ func main() {
 }
 
 // Time complexity of this program is O(n).
+
 
 
 
