@@ -22,24 +22,22 @@ import (
 // }
 
 func main(){
-	var a = []int{1, 2, 3, 4, 5}
-	var b = []int{3, 4, 6}
-	fmt.Println(inter(a,b))
-}
+	l1 := 0
+	l2 := 0
+	a := []int {1,2,3,4,100}
 
-
-
-func inter(a,b []int) (c []int) {
-	m := make(map[int]bool)
-	for _, item := range a {
-		m[item] = true
-	}
-
-	for _, item := range b {
-		if _, ok := m[item]; ok {
-         c = append(c, item)
+	l1 = a[0]
+	for i := 1; i <= 4; i++{
+		if l1 < a[i] {
+			l2 = l1
+			l1 = a[i]
+		} else if l2 < a[i]{
+			l2 = a[i]
 		}
 	}
-	return
+	fmt.Println(l1)
 }
+
+
+
 

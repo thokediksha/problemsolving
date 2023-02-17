@@ -51,8 +51,3 @@ package main
 // func main() {
 // 	prime(5,11)
 // }
-import "fmt"
-
-func anagram(s1, s2 string) bool {
-    s := make()
-}

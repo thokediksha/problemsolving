@@ -12,9 +12,9 @@ func getVal(str string) int {
     val := 0
     for _, c := range str {
         if c == '0' {
-            val += 1
+            val = val + 1
         } else {
-            val += 2
+            val = val + 2 
         }
     }
     return val
