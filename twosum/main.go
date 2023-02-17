@@ -16,5 +16,7 @@ func twosum(nums []int, target int) []int {
 
 func main() {
 	nums := []int {1,2,3,4,5}
-	target := 
+	target := 5
+	c := twosum(nums, target)
+	fmt.Println(c)
 }
