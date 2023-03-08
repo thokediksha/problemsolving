@@ -22,8 +22,6 @@ func isAnagram(s1,s2 string) bool {
 	return true
 }
 
-
-
 func main() {
     s1 := "madam"
     s2 := "damma"
