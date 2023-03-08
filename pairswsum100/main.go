@@ -18,7 +18,7 @@ func findPairs(arr []int, sum int) [][]int {
 }
 
 func main() {
-    arr := []int{80, 60, 10, 50, 30, 100, 0, 50}
+    arr := []int{80, 60, 10, 50, 30, 100, 0, 40, 50}
     sum := 100
     pairs := findPairs(arr, sum)
     fmt.Println("Pairs whose sum is", sum, ":", pairs)
