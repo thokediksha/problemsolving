@@ -24,3 +24,5 @@ func main() {
     s := "00010110"
     fmt.Println(getVal(s))
 }
+
+

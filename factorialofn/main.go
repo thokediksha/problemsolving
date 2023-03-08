@@ -5,14 +5,18 @@ package main
 
 import "fmt"
 
-func factorial(n int) int {
-	if n == 1 || n == 0 {
-      return n
-	} else {
-		return n * factorial(n-1)
+func main() {
+	 n := 4
+	 fact := 1
+
+	if n < 0 {
+		fmt.Print("\nFactorial of a negative number is not possible")
 	}
+	for i := 1; i <= n; i++ {
+		fact = fact * i
+	}
+	fmt.Printf("Factorial of %d is %d", n, fact)
 }
 
-func main(){
-  fmt.Println(factorial(4))
-}
+
+

@@ -20,3 +20,16 @@ func main(){
 	res7 := strings.Count(str, "g")
 	fmt.Println("{"+"a:",res1,","+"b:",res2,","+"c:",res3,","+"d:",res4,","+"e:",res5,","+"f:",res6,","+"g:",res7,"}")
 }
+
+// func main() {
+//     input := "aabbcdddededfg"
+//     charCount := map[rune]int{}
+//     for _, char := range input {
+//         charCount[char]++
+//     }
+//     output := make(map[string]int)
+//     for key, value := range charCount {
+//         output[string(key)] = value
+//     }
+//     fmt.Println(output)
+// }
